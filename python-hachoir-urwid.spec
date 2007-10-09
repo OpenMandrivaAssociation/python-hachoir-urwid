@@ -1,6 +1,6 @@
 %define module_name hachoir-urwid
 
-Summary: 	The most sexy user interface based on hachoir-parser to explore a binary file.
+Summary: 	The most sexy user interface based on hachoir-parser to explore a binary file
 Name: 		python-%{module_name}
 Version: 	1.0.1
 Release: 	%mkrel 1
