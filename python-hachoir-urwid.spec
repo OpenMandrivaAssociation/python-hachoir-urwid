@@ -14,9 +14,9 @@ Requires:   python-hachoir-core
 Requires:   python-hachoir-parser
 BuildRequires: python-devel
 %description
-hachoir-urwid  is a package with the most sexy user interface using hachoir-core. 
-Not all parsers are complete, some are very good and other are poor: only parse 
-first level of the tree for example.
+hachoir-urwid  is a package with the most sexy user interface using hachoir-
+core.  Not all parsers are complete, some are very good and other are poor:
+only parse first level of the tree for example.
 
 A perfect parser have no "raw" field: with a perfect parser you are able 
 to know *each* bit meaning. Some good (but not perfect ;-)) parsers:
