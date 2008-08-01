@@ -3,7 +3,7 @@
 Summary: 	The most sexy user interface based on hachoir-parser to explore a binary file
 Name: 		python-%{module_name}
 Version: 	1.0.1
-Release: 	%mkrel 3
+Release: 	%mkrel 4
 Source0: 	%{module_name}-%{version}.tar.bz2
 License:	GPL
 Group: 		Development/Python
