@@ -45,3 +45,42 @@ rm -rf %{buildroot}
 %doc AUTHORS COPYING README
 %{_bindir}/*
 %{py_puresitedir}/*
+
+
+%changelog
+* Wed Nov 17 2010 Funda Wang <fwang@mandriva.org> 1.1-2mdv2011.0
++ Revision: 598271
+- rebuild for py2.7
+
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 1.1-2mdv2010.0
++ Revision: 442180
+- rebuild
+
+* Sat Dec 27 2008 Adam Williamson <awilliamson@mandriva.org> 1.1-1mdv2009.1
++ Revision: 320023
+- rebuild with python 2.6
+- clean spec
+- new release 1.1
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-4mdv2009.0
++ Revision: 259628
+- rebuild
+
+* Fri Jul 25 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-3mdv2009.0
++ Revision: 247430
+- rebuild
+
+* Tue Feb 12 2008 Thierry Vignaud <tv@mandriva.org> 1.0.1-1mdv2008.1
++ Revision: 166729
+- fix description-line-too-long
+- kill re-definition of %%buildroot on Pixel's request
+- fix summary-ended-with-dot
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Tue Jul 17 2007 Jérôme Soyer <saispo@mandriva.org> 1.0.1-1mdv2008.0
++ Revision: 52870
+- New release 1.0.1
+- Import python-hachoir-urwid
+
